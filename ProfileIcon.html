@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./icon.css" />
+    <style>
+    .iconcontainer {
+    grid-column: 8 / 9;
+    display: grid;   
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 21px;
+    height: 21px;   
+    background-color: white;
+    padding: 10px;   
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    cursor: pointer;
+         
+    }
+    .iconcontainer:hover {
+        background-color: whitesmoke;
+        transition: 0.5s;
+        color: #5624d0; 
+
+    }
+      
+    .inhead {
+        width: 7px;
+        height: 7px;
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        border: 2px solid black;
+        border-radius: 50%;
+        
+    }
+    .inbody{    
+        height: 7px;
+        grid-column: 1 / 4;
+        grid-row: 2 / 3;
+        border: 2px solid black;
+        border-bottom: none;
+        border-radius: 7px 7px 0px 0px;
+        margin-top: 2px;
+
+    }
+
+    </style>
+</head>
+<body>
+ <div class="iconcontainer">
+    <div class="inhead">
+    </div>
+    <div class="inbody">
+    </div>
+ </div>
+    
+</body>
+</html>
+
